@@ -1,7 +1,7 @@
 # SQL_Employee_Tracker
 
 ## Description
-This challenge my task was to create a CMS (content mangament system) in the command line to manage a company's employee database, using Node.js, Inquirer and MySQL.
+This challenge my task was to create a CMS (content management system) in the command line to manage a company's employee database, using Node.js, Inquirer and MySQL.
 ## Acceptance Criteria
 
 GIVEN a command-line application that accepts user input
