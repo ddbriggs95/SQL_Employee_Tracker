@@ -1,38 +1,31 @@
-USE employeesDB;
+USE employee_tracker_db;
 
 INSERT INTO department (name)
-VALUES ("Sales");
-INSERT INTO department (name)
-VALUES ("Engineering");
-INSERT INTO department (name)
-VALUES ("Finance");
-INSERT INTO department (name)
-VALUES ("Legal");
+VALUES 
+('IT'),
+('Finance & Accounting'),
+('Sales & Marketing'),
+('Operations');
 
 INSERT INTO role (title, salary, department_id)
-VALUES ("Sales Lead", 100000, 1);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Lead Engineer", 150000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Software Engineer", 120000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Accountant", 125000, 3);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Legal Team Lead", 250000, 4);
+VALUES
+('Full Stack Developer', 80000, 1),
+('Software Engineer', 120000, 1),
+('Accountant', 10000, 2), 
+('Finanical Analyst', 150000, 2),
+('Marketing Coordindator', 70000, 3), 
+('Sales Lead', 90000, 3),
+('Project Manager', 100000, 4),
+('Operations Manager', 90000, 4);
+
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Jane", "Doe", 1, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Norah", "Rios", 2, 1);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Kate", "Mellor", 3, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Shiv", "Betts", 4, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Leen", "Hurst", 5, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Gary", "Leer", 2, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Tom", "Cruise", 4, 7);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Daisy", "Hooper", 1, 2);
+VALUES 
+('Mark', 'Miller', 2, null),
+('Devin', 'Anderson', 1, 1),
+('Mary', 'Brown', 4, null),
+('Ashley', 'Jones', 3, 3),
+('Tyler', 'Moore', 6, null),
+('Ana', 'Sanchez', 5, 5),
+('Lewis', 'Allen', 7, null),
+('Katherine', 'Green', 8, 7);
