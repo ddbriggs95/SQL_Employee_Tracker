@@ -24,6 +24,6 @@ GIVEN a command-line application that accepts user input
 
 ## Deployment
 
-Link to walkthrough:
+Link to walkthrough: https://drive.google.com/file/d/1J36xlipuqxlnamqDnFm915Ye7yH2hwhW/view
 
 Github Repository: https://github.com/ddbriggs95/SQL_Employee_Tracker
